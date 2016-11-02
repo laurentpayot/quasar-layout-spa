@@ -8,6 +8,12 @@
 export default {
   data () {
     return {}
+  },
+  created () {
+    console.log('Hello created!')
+  },
+  destroyed () {
+    console.log('Hello destroyed!')
   }
 }
 </script>
